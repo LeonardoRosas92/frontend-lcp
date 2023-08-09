@@ -9,6 +9,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "sass": "^1.64.2",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "van-router": "^0.6.5"
   }
 }

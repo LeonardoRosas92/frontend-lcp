@@ -1,7 +1,7 @@
 
 # [FRONTEND] Laboratio Clinico Poniente
 
-Este proyecto contiene el desarrollo Frontend del Laboratorio Clinico Poniente, en el cual se muestra informacion acerca del laboratorio, el catálogo de los estudios proporcionados, así como la realización de reservaciones por fecha y horario deseado para realizar el estudio. 
+Este proyecto contiene el desarrollo Frontend del Laboratorio Clínico Poniente, en el cual se muestra información acerca del laboratorio, el catálogo de los estudios proporcionados, así como la realización de reservaciones por fecha y horario deseado para realizar el estudio. 
 
 ## Instalación
 

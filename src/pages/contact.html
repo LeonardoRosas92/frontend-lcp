@@ -4,9 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  
+<style>
+
+#envianosMensaje{
+
+  background: #F3CB67;
+}
+#form{
+  background: #F1DFAB;
+}
+
+</style>
+
 </head>
 <body>
-  <h1 class="bg-danger">Contact</h1>
-  <script type="module" src="/main.js"></script>
+  <main>
+    <div  class="">
+    <h1 class="bg-gray text-center">Contáctanos</h1>
+    </div>
+    <!-- Formulario -->
+<div class="container" >
+  <div class="container" id="envianosMensaje">
+    <h3>Envíanos un mensaje</h3>
+
+  
+  <div class="row justify-content-center" id="form">
+    <div id="liveAlertPlaceholder"></div>
+    <form class="row g-3" id="registerForm">
+      <div class="col-6">
+        <label for="fullname" class="form-label">Nombre y apellido</label>
+        <input type="text" class="form-control" id="fullname" placeholder="Ingresa tu nombre y apellido">
+      </div>
+      <div class="col-md-4">
+        <label for="Telefono" class="form-label">Teléfono</label>
+        <input type="tel" class="form-control" id="Telefono">
+      </div>
+      <div class="col-md-8">
+        <label for="email" class="form-label">Correo Electronico</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      
+      <div class="col-md-10">
+        <label for="mensaje" class="form-label"> Mensaje </label>
+        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+      </div>
+
+     
+      <div class="col-12">
+        <button type="submit" class="btn btn-success">Enviar</button>
+      
+      </div>
+      </div>
+      
+    </form>
+  </div>
+</div>
+
+<!-- Ubicacion -->
+
+<div >
+
+</div>
+
+<!-- Informacion Texto -->
+
+<!-- Imagen de la ubicacion -->
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
